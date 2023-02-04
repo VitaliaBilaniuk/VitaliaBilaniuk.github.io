@@ -1,0 +1,168 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Vitaliia Bilaniuk",
+    "label": "Front-end developer",
+    "image": "",
+    "email": "vitaliiabilaniuk@gmail.com",
+    "phone": "",
+    "url": "https://www.linkedin.com/in/vitaliabilaniuk/",
+    "summary": "A result-driven Front-End Developer with 6 years of experience specializing in web development. A proven track record of collaborating cross-functionally with technical teams and stakeholders across all phases of the software development lifecycle. Passionate about learning and development. Eager to tackle more complex problems and continue to find ways to maximize user efficiency. Mainly worked with Angular but open to learn other frameworks and technologies.",
+    "location": {
+      "city": "Ivano-Frankivsk, ",
+      "region": "Ukraine"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "vitaliabilaniuk",
+        "url": "https://www.linkedin.com/in/vitaliabilaniuk/"
+      },
+      {
+        "network": "Github",
+        "username": "VitaliaBilaniuk",
+        "url": "https://github.com/VitaliaBilaniuk"
+      },
+      {
+        "network": "Telegram",
+        "username": "vitaliia_lia",
+        "url": "https://t.me/vitaliia_lia"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Perfectial",
+      "website": "https://perfectial.com/",
+      "location": "Ivano-Frankivsk, Ukraine",
+      "description": "Outsource company",
+      "position": "Software Engineer",
+      "startDate": "2018-09-01",
+      "endDate": "2022-09-01",
+      "summary": "As a contractor, worked with <a href='https://www.clickatell.com/' target='blank'>Clickatell</a> company team on two web-portals (admin and client portal) simultaneously, using Angular 8 and Angular 11.",
+      "highlights": [
+        "- Developed complex dashboards on the admin portal using  Angular",
+        "- Implemented various components on client portal ( including payment and refund functionality, transaction history tables, account settings, subscriptions description pages, etc)",
+        "- Reimplemented legacy portal functionality using new technologies",
+        "- Configured and implemented Cybersource integration for 3D secure payments",
+        "- Worked with Power BI integration and charts displaying/configuration",
+        "- Upgraded application from Angular 8 to Angular 11",
+        "- Onboarded new team members and mentored them"
+      ]
+    },
+    {
+      "company": "PozitiFF",
+      "location": "Lviv, Ukraine",
+      "description": "Web aggency",
+      "website": "https://www.pozitiff.cz/",
+      "position": "Front-end developer",
+      "startDate": "2017-09-01",
+      "endDate": "2018-08-01",
+      "summary": "Developed the front-end of customers websites using HTML, CSS3, jQuery, Bootstrap",
+      "highlights": [
+        "- Created various landing pages using HTML, CSS3, jQuery, Bootstrap",
+        "- Adjusted WordPress themes to customer's needs",
+        "- Created many static websites using Jekyll and hugo site generators",
+      ]
+    },
+    {
+      "company": "LETZGRO",
+      "website": "https://letzgro.net/",
+      "location": "Ivano-Frankivsk, Ukraine",
+      "description": "Outsource company",
+      "position": "Front-end developer",
+      "startDate": "2016-09-01",
+      "endDate": "2017-07-01",
+      "summary": "Developed the front-end of customers websites using HTML, CSS3, jQuery, Bootstrap",
+      "highlights": []
+    },
+    {
+      "company": "LETZGRO",
+      "website": "https://letzgro.net/",
+      "location": "Ivano-Frankivsk, Ukraine",
+      "description": "Outsource company",
+      "position": "Marketing manager",
+      "startDate": "2015-09-01",
+      "endDate": "2016-08-01",
+      "summary": "I was responsible for the marketing strategy of the company, also leaded the development of company's website along with company's social networks ",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+    {
+      "institution": "Ternopil Academy of National Economy",
+      "website": "https://www.wunu.edu.ua/en/university/about-the-university/",
+      "area": "Management  of international economic activity",
+      "studyType": "Master's degree",
+      "startDate": "2011-09-01",
+      "endDate": "2016-06-30"
+    },
+    {
+      "institution": "Vasyl Stefanyk Precarpathian National University",
+      "website": "https://pnu.edu.ua/en/",
+      "area": "Foreign Languages and Literature",
+      "studyType": "Bachelor's degree",
+      "startDate": "2011-09-01",
+      "endDate": "2015-06-30"
+    }
+  ],
+  "awards": [
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "Angular",
+        "Javascript",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Sass",
+        "Bootstrap",
+        "Angular Material",
+        "JQuery",
+        "Npm",
+        "Webpack"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Advanced",
+      "keywords": [
+        "Git",
+        "Zeplin",
+        "Figma",
+        "Jira",
+        "Agile",
+        "Scrum"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Ukranian",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+  ],
+  "references": [
+  ],
+  "projects": [
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "stackoverflow"
+  }
+}
