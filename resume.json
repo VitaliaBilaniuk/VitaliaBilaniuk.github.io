@@ -128,7 +128,9 @@
         "Angular Material",
         "JQuery",
         "Npm",
-        "Webpack"
+        "Webpack",
+        "Docker",
+        "Unit testing"
       ]
     },
     {
@@ -140,7 +142,10 @@
         "Figma",
         "Jira",
         "Agile",
-        "Scrum"
+        "Scrum",
+        "Google Analytics",
+        "Google Tag Manager",
+        "Google Analytics events tracking"
       ]
     }
   ],
