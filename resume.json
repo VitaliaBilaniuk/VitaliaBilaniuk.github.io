@@ -1,0 +1,220 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Vitaliia Bilaniuk",
+    "label": "Senior Frontend Engineer",
+    "image": "",
+    "email": "vitaliiabilaniuk@gmail.com",
+    "phone": "",
+    "url": "https://www.linkedin.com/in/vitaliabilaniuk/",
+   "summary": "Senior Frontend Engineer with 8+ years of experience building scalable, high-performance web applications using Angular and React. Proven track record of delivering complex, data-heavy products, improving application architecture, and optimizing performance. Experienced in working across multiple frontend codebases in parallel, with a strong focus on clean architecture, reusable components, and code quality. Comfortable in remote environments and actively expanding into fullstack development.",
+    "location": {
+      "city": "Ivano-Frankivsk, ",
+      "region": "Ukraine"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "vitaliabilaniuk",
+        "url": "https://www.linkedin.com/in/vitaliabilaniuk/"
+      },
+      {
+        "network": "Github",
+        "username": "VitaliaBilaniuk",
+        "url": "https://github.com/VitaliaBilaniuk"
+      },
+      {
+        "network": "Telegram",
+        "username": "vitaliia_lia",
+        "url": "https://t.me/vitaliia_lia"
+      }
+    ]
+  },
+  "work": [
+   {
+      "company": "MEV",
+      "website": "https://mev.com/",
+      "location": "remote",
+      "description": "Outsource company",
+      "position": "Senior Software Engineer",
+      "startDate": "2023-08-01",
+      "summary": "As a contractor, worked with <a href='https://mls.hiinfo.com/' target='blank'>Hawaii Information Service</a> company team on their MLS tool",
+      "highlights": [
+        "- Contributed to a production-grade MLS platform used by 1,000+ real estate agents to search, analyze, and manage property listings",
+        "- Delivered interactive map-based search using ArcGIS, improving property discovery and reducing search time for users",
+        "- Contributed to active development of both Angular and React applications in parallel, delivering features across two production codebases",
+        "- Built UI components and implemented feature logic in React using modern patterns (hooks, state management, Redux)",
+        "- Reduced technical debt by migrating Angular 14 → 18 within an NX monorepo, improving maintainability and release stability",
+        "- Implemented NgRx state management, reducing state-related bugs and improving data consistency across the application",
+        "- Built and maintained unit tests (Jasmine/Jest/Karma), increasing code reliability and reducing regressions",
+        "- Optimized performance of data-heavy views, improving responsiveness and user experience",
+        "- Automated CI/CD workflows with Docker & Jenkins, reducing manual deployment effort and improving release consistency",
+        "- Built reusable UI components using PrimeNG, accelerating feature development and ensuring UI consistency",
+        "- Integrated and maintained mobile-ready builds using Capacitor, enabling hybrid deployment",
+        "- Actively contributed to architectural decisions, code reviews, and performance improvements across the project"
+      ]
+    },
+    {
+      "company": "Perfectial",
+      "website": "https://perfectial.com/",
+      "location": "Ivano-Frankivsk, Ukraine",
+      "description": "Outsource company",
+      "position": "Software Engineer",
+      "startDate": "2018-09-01",
+      "endDate": "2023-07-01",
+      "summary": "As a contractor, worked with <a href='https://www.clickatell.com/' target='blank'>Clickatell</a> company team on two web-portals (admin and client portal) simultaneously, using Angular 8 and Angular 11.",
+     "highlights": [
+        "- Developed complex, data-driven dashboards on the admin portal using Angular",
+        "- Implemented key frontend features on the client portal, including payments (Cybersource 3D Secure), transaction history, account settings, and subscriptions",
+        "- Reimplemented legacy functionality using modern frontend patterns and improved component architecture",
+        "- Built reusable UI components and applied patterns transferable across Angular and React ecosystems",
+        "- Worked with data visualization tools including Power BI integrations and configurable charts",
+        "- Collaborated on frontend architecture and code quality improvements across projects using modern JavaScript frameworks (Angular, React)",
+        "- Upgraded the application from Angular 8 to Angular 11, reducing technical debt and improving stability",
+        "- Onboarded and mentored new team members, sharing best practices and improving code quality"
+      ]
+    },
+    {
+      "company": "PozitiFF",
+      "location": "Lviv, Ukraine",
+      "description": "Web aggency",
+      "website": "https://www.pozitiff.cz/",
+      "position": "Front-end developer",
+      "startDate": "2017-09-01",
+      "endDate": "2018-08-01",
+      "summary": "Developed the front-end of customers websites using HTML, CSS3, jQuery, Bootstrap",
+      "highlights": [
+        "- Created various landing pages using HTML, CSS3, jQuery, Bootstrap",
+        "- Adjusted WordPress themes to customer's needs",
+        "- Created many static websites using Jekyll and hugo site generators"
+      ]
+    },
+    {
+      "company": "LETZGRO",
+      "website": "https://letzgro.net/",
+      "location": "Ivano-Frankivsk, Ukraine",
+      "description": "Outsource company",
+      "position": "Front-end developer",
+      "startDate": "2016-09-01",
+      "endDate": "2017-07-01",
+      "summary": "Developed the front-end of customers websites using HTML, CSS3, jQuery, Bootstrap",
+      "highlights": []
+    },
+    {
+      "company": "LETZGRO",
+      "website": "https://letzgro.net/",
+      "location": "Ivano-Frankivsk, Ukraine",
+      "description": "Outsource company",
+      "position": "Marketing manager",
+      "startDate": "2015-09-01",
+      "endDate": "2016-08-01",
+      "summary": "I was responsible for the marketing strategy of the company, also leaded the development of company's website along with company's social networks ",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+    {
+      "institution": "Ternopil Academy of National Economy",
+      "website": "https://www.wunu.edu.ua/en/university/about-the-university/",
+      "area": "Management  of international economic activity",
+      "studyType": "Master's degree",
+      "startDate": "2011-09-01",
+      "endDate": "2016-06-30"
+    },
+    {
+      "institution": "Vasyl Stefanyk Precarpathian National University",
+      "website": "https://pnu.edu.ua/en/",
+      "area": "Foreign Languages and Literature",
+      "studyType": "Bachelor's degree",
+      "startDate": "2011-09-01",
+      "endDate": "2015-06-30"
+    }
+  ],
+  "awards": [
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "Angular",
+        "React",
+        "Redux",
+        "NgRx",
+        "TypeScript",
+        "JavaScript",
+        "RxJS",
+        "NX Monorepo",
+        "PrimeNG",
+        "Angular Material",
+        "ArcGIS Maps SDK",
+        "Capacitor",
+        "HTML5",
+        "CSS3",
+        "Sass",
+        "Bootstrap",
+        "JQuery",
+        "Npm",
+        "Webpack",
+        "Docker",
+        "Sentry",
+        "Unit testing"
+      ]
+    },
+    {
+      "name": "Server-Side Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Next.js",
+        "PostgreSQL",
+        "REST APIs",
+        "SQL",
+        "AWS",
+        "Prisma",
+        "Database Design"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Advanced",
+      "keywords": [
+        "CI/CD",
+        "Git",
+        "Zeplin",
+        "Figma",
+        "Jira",
+        "Agile",
+        "Scrum",
+        "Google Analytics",
+        "Google Tag Manager",
+        "Google Analytics events tracking"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Ukrainian",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+  ],
+  "references": [
+  ],
+  "projects": [
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "stackoverflow"
+  }
+}
