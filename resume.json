@@ -193,6 +193,25 @@
         "Google Tag Manager",
         "Google Analytics events tracking"
       ]
+    },
+    {
+      "name": "Accessibility",
+      "level": "Working",
+      "keywords": [
+        "WCAG 2.2 AA",
+        "axe-core",
+        "ARIA",
+        "Semantic landmarks",
+        "Keyboard navigation"
+      ]
+    },
+    {
+      "name": "AI-Assisted Development",
+      "level": "",
+      "keywords": [
+        "Claude Code",
+        "Agentic coding workflows"
+      ]
     }
   ],
   "languages": [
@@ -210,6 +229,20 @@
   "references": [
   ],
   "projects": [
+    {
+      "name": "Voice Studio",
+      "description": "Text-to-speech studio on the ElevenLabs API. React 18 + TypeScript front end with a Node/Express proxy that keeps the API key server-side and streams synthesized audio to the browser. Built, tested, and shipped solo.",
+      "highlights": [
+        "Node/Express proxy holds the ElevenLabs API key server-side and streams the generated MP3 straight through; the browser never sees the key",
+        "Voice picker, stability/similarity/style/speed controls, and a bounded, self-cleaning clip history with download",
+        "Audited and fixed for WCAG 2.2 AA: landmark regions and a skip link, distinguishable accessible names for repeated controls, form-control contrast brought up to the 3:1 minimum, prefers-reduced-motion support",
+        "28 tests (Vitest, Testing Library, axe-core) covering the proxy routes, the synthesis hook, the settings panel, accessibility, and the app wiring; GitHub Actions CI runs lint, typecheck, tests, and build on every push"
+      ],
+      "keywords": ["React", "TypeScript", "Node.js", "Express", "Vite", "Vitest", "axe-core", "WCAG 2.2 AA", "CI/CD"],
+      "url": "https://github.com/VitaliaBilaniuk/elevenlabs-voice-studio",
+      "startDate": "2026-09-01",
+      "type": "application"
+    }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",

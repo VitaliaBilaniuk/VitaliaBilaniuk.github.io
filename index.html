@@ -742,6 +742,39 @@ h2.section-title {
 				</section>
 
 				<section class="section">
+					<h2 class='section-title'>Projects</h2>
+					<section id="projects">
+						<header>
+							<h3 class="name">
+								Voice Studio
+							</h3>
+							<div class="date">
+								<span class="startDate">
+									Sep 2026
+								</span>
+							</div>
+						</header>
+						<div class="item">
+						<div class="position">
+							Text-to-speech studio on the ElevenLabs API
+						</div>
+						<div class="website">
+							<a href="https://github.com/VitaliaBilaniuk/elevenlabs-voice-studio" target="_blank" rel="noopener">github.com/VitaliaBilaniuk/elevenlabs-voice-studio</a>
+						</div>
+						<div class="summary">
+							<p>React 18 + TypeScript front end with a Node/Express proxy that keeps the API key server-side and streams synthesized audio to the browser. Built, tested, and shipped solo: architecture, feature set, and CI were my own calls.</p>
+						</div>
+						<ul class="highlights">
+							<li>- Node/Express proxy holds the ElevenLabs API key server-side and streams the generated MP3 straight through; the browser never sees the key</li>
+							<li>- Voice picker, stability/similarity/style/speed controls, and a bounded, self-cleaning clip history with download</li>
+							<li>- Audited and fixed for WCAG 2.2 AA: landmark regions and a skip link, distinguishable accessible names for repeated controls, form-control contrast brought up to the 3:1 minimum, prefers-reduced-motion support</li>
+							<li>- 28 tests (Vitest, Testing Library, axe-core) covering the proxy routes, the synthesis hook, the settings panel, accessibility, and the app wiring; GitHub Actions CI runs lint, typecheck, tests, and build on every push</li>
+						</ul>
+					</div>
+					</section>
+				</section>
+
+				<section class="section">
 					<h2 class='section-title'>Education</h2>
 					<section id="education">
 							<header>
@@ -861,6 +894,35 @@ h2.section-title {
 								<li>Google Analytics</li>
 								<li>Google Tag Manager</li>
 								<li>Google Analytics events tracking </li>
+							</ul>
+						</div>
+						<div class="item">
+							<div class="name">
+								Accessibility
+							</div>
+							<div class="level beginner">
+								<em>Working</em>
+								<div class="bar"></div>
+							</div>
+							<ul class="keywords">
+								<li>WCAG 2.2 AA</li>
+								<li>axe-core</li>
+								<li>ARIA</li>
+								<li>Semantic landmarks</li>
+								<li>Keyboard navigation</li>
+							</ul>
+						</div>
+						<div class="item">
+							<div class="name">
+								AI-Assisted Development
+							</div>
+							<div class="level beginner">
+								<em>Working</em>
+								<div class="bar"></div>
+							</div>
+							<ul class="keywords">
+								<li>Claude Code</li>
+								<li>Agentic coding workflows</li>
 							</ul>
 						</div>
 					</section>
