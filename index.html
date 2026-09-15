@@ -762,13 +762,14 @@ h2.section-title {
 							<a href="https://github.com/VitaliaBilaniuk/elevenlabs-voice-studio" target="_blank" rel="noopener">github.com/VitaliaBilaniuk/elevenlabs-voice-studio</a>
 						</div>
 						<div class="summary">
-							<p>React 18 + TypeScript front end with a Node/Express proxy that keeps the API key server-side and streams synthesized audio to the browser. Built, tested, and shipped solo: architecture, feature set, and CI were my own calls.</p>
+							<p>React 18 + TypeScript front end, Node/Express proxy, MongoDB-backed history exposed over GraphQL. Built, tested, and shipped solo: architecture, feature set, and CI were my own calls.</p>
 						</div>
 						<ul class="highlights">
 							<li>- Node/Express proxy holds the ElevenLabs API key server-side and streams the generated MP3 straight through; the browser never sees the key</li>
 							<li>- Voice picker, stability/similarity/style/speed controls, and a bounded, self-cleaning clip history with download</li>
+							<li>- MongoDB-backed synthesis history exposed through a read-only GraphQL API (clips, clipStats); recorded fire-and-forget so a database hiccup never slows or breaks audio delivery</li>
 							<li>- Audited and fixed for WCAG 2.2 AA: landmark regions and a skip link, distinguishable accessible names for repeated controls, form-control contrast brought up to the 3:1 minimum, prefers-reduced-motion support</li>
-							<li>- 28 tests (Vitest, Testing Library, axe-core) covering the proxy routes, the synthesis hook, the settings panel, accessibility, and the app wiring; GitHub Actions CI runs lint, typecheck, tests, and build on every push</li>
+							<li>- 41 tests (Vitest, Testing Library, axe-core), including data-layer and end-to-end GraphQL tests run against a real, ephemeral MongoDB, not a mock; GitHub Actions CI runs lint, typecheck, tests, and build on every push</li>
 						</ul>
 					</div>
 					</section>
@@ -898,31 +899,17 @@ h2.section-title {
 						</div>
 						<div class="item">
 							<div class="name">
-								Accessibility
+								Also learning
 							</div>
 							<div class="level beginner">
 								<em>Working</em>
 								<div class="bar"></div>
 							</div>
 							<ul class="keywords">
-								<li>WCAG 2.2 AA</li>
-								<li>axe-core</li>
-								<li>ARIA</li>
-								<li>Semantic landmarks</li>
-								<li>Keyboard navigation</li>
-							</ul>
-						</div>
-						<div class="item">
-							<div class="name">
-								AI-Assisted Development
-							</div>
-							<div class="level beginner">
-								<em>Working</em>
-								<div class="bar"></div>
-							</div>
-							<ul class="keywords">
-								<li>Claude Code</li>
-								<li>Agentic coding workflows</li>
+								<li>GraphQL</li>
+								<li>MongoDB</li>
+								<li>Accessibility (WCAG 2.2 AA, axe-core, ARIA)</li>
+								<li>AI-assisted development (Claude Code)</li>
 							</ul>
 						</div>
 					</section>
